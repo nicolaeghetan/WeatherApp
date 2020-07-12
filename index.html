@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wheater App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="wheater_dashboard">Wheater Dashboard</h1>
+    </div>
+    <div class="search_area">
+        <div id="city_search">
+            <h3 id="search_by_city">Search for a City: </h3>
+            <input id="input_search_area" type="text" placeholder="Search...">
+            <button id="search_city_btn">Click ME!</button>
+        </div>
+
+        <div id="city_output_area">
+        </div>
+
+    </div>
+    <div class="output_container">
+        <div class="output_data">
+            <h3 id="city_output">
+                <span id="wheter_icon"></span>
+            </h3>
+            <div class="data_output_container">
+                <span id="city_wheater_icon"></span>
+                <div id="temperature_output">Temperature :
+                    <span id="pemperature_output_data"></span>
+                    &#8457;
+                </div><br>
+
+                <div id="humidity_output">Humidity :
+                    <span id="humidity_output_data"></span> %</div>
+                <br>
+                <div id="windspeed_output">Wind Speed :
+                    <span id="windspeed_output_data"></span> MPH
+                </div>
+                <br>
+                <div id="uw_index_output">UW Index :
+                    <span id="uw_index_output_data"></span> </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card_date_1"></h5>
+                            <p class="card_temp1">Temp:</p>
+
+                            <p class="card_hum1">Humidity:</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card_date_2"></h5>
+
+                            <p class="card_temp2">Temp:</p>
+
+                            <p class="card_hum2">Humidity:</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card_date_3"></h5>
+                            <p class="card_temp3">Temp: </p>
+                            <p class="card_hum3">Humidity:</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card_date_4"></h5>
+
+                            <p class="card_temp4">Temp:</p>
+
+                            <p class="card_hum4">Humidity:</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card_date_5"></h5>
+
+                            <p class="card_temp5">Temp:</p>
+
+                            <p class="card_hum5">Humidity:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

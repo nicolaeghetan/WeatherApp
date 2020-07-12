@@ -1,0 +1,137 @@
+.header{
+    background-color: #343a40;
+    width: 100%;
+    height: 95px;
+    margin: auto;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#wheater_dashboard{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 15px;
+}
+.search_area{
+    float: left;
+    position: relative;
+    margin: 0;
+    left: 0px;
+    height: 100%;
+    width: 30%;
+    background-color: #f8f9fa;
+    
+    
+}
+#city_search{
+    margin: 15px;
+    padding-top: 15px;
+}
+#search_by_city{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#input_search_area{
+    height: 40px;
+    width: 220px;
+    border-style: inset;
+    border-radius: 5px;
+    font-size: 25px;
+    border-color: #ced4da;
+}
+#search_city_btn{
+    position: absolute;
+    height: 45px;
+    width: 50px;
+    background-color: #007bff;
+    color: ghostwhite;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #007bff;
+}
+.city_output_area{
+    width: 100%;
+    height: 50px;
+    border-style: solid;
+    border: 3px;
+    border-color:#dfdfdf ;
+    background-color: white;
+    margin: 15px;
+    text-align: center;
+}
+#city_output{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #727657;
+}
+.output_container{
+    float: right;
+    background-color:white;
+    width: 70%;
+    text-align: left;
+    
+}
+.output_data{
+    margin: 25px;
+    border-style: solid;
+    border-color: #dfdfdf;
+    border: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.data_output_container  {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.five_days_output{
+    margin: 25px ;
+}
+#wheater_card {
+    width: 150px;
+    height: 180px;
+    background-color: #007bff;
+    border-radius: 5px;
+    grid-template-columns: 60px 60px;
+}
+.wheater_card_grid {
+    padding: 15px;
+    color: white;
+}
+#next_date_forecast{
+    font-size: 20px;
+}
+.five_day_grid{
+    grid-template-columns: 60px 60px;
+}
+.card {
+    background-color: #007bff;
+    height: 160px;
+    width: 145px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin: 5px;
+}
+.card-body {
+    margin: 10px;
+    font-size: larger;
+}
+#uw_index_output_data {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 1px;
+   
+}
+.input_btn_value {
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 30px;
+    color: #212529;
+    
+}
+.row {
+    display: flex;
+}
